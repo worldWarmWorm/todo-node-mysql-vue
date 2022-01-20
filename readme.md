@@ -1,5 +1,9 @@
 The todo app created with node.js, express.js, MySQL, vue.js.
 
+DB accesses:
+login = root
+pass = Roottt1!
+
 Most usefull commands for mysql console:
 
 mysql -u root -p
