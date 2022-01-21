@@ -17,3 +17,5 @@ SHOW COLUMNS FROM Todos FROM node_todo;
 select * from node_todo.Todos;
 
 mysqldump -u root -p node_todo > node_todo_dump.sql;
+
+mysqldump node_todo > node_todo_dump.sql;

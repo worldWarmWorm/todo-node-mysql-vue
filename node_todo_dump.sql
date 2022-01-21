@@ -29,7 +29,7 @@ CREATE TABLE `Todos` (
   `createdAt` datetime NOT NULL,
   `updatedAt` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,6 +38,7 @@ CREATE TABLE `Todos` (
 
 LOCK TABLES `Todos` WRITE;
 /*!40000 ALTER TABLE `Todos` DISABLE KEYS */;
+INSERT INTO `Todos` VALUES (7,'Сделать зарядку',0,'2022-01-21 06:19:41','2022-01-21 06:19:41'),(8,'Улыбнуться миру',0,'2022-01-21 06:19:47','2022-01-21 06:19:47');
 /*!40000 ALTER TABLE `Todos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-01-21  2:08:21
+-- Dump completed on 2022-01-21 13:22:57
