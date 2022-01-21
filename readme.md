@@ -1,4 +1,4 @@
-The todo app created with node.js, express.js, MySQL, vue.js.
+The todo app created with node.js, express.js, MySQL, vue.js, graphiql.
 
 DB accesses:
 login = root
